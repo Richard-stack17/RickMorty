@@ -1,0 +1,76 @@
+
+
+
+.card{
+    max-width: 230px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+.card__header{
+    width:100%;
+    aspect-ratio: 1;
+    position: relative;
+}
+.card__avatar{
+    /*--esto es para que no se deforme la imagen --!*/
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
+.card__circle-container{
+    position:absolute;
+    top:10%;
+    background-color: black;
+    padding: 5px 0 5px 5px;
+    border-radius: 0 8px 8px 0;
+    color:white;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding-right: 5px;
+}
+.card__circle{
+    width:12px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+.Alive{
+background-color: rgb(19, 180, 19);
+}
+.Dead{
+ background-color: red;   
+}
+.card__body{
+    padding: 15px;
+    background: url('https://img.freepik.com/vector-premium/fondo-espacial-nebulosa-estelar-galaxia-via-lactea-espacio-infinito_158677-252.jpg');
+    color:white;
+    padding-bottom: 20px;
+}
+.card__name{
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family:fantasy;
+    color:rgb(184, 172, 204);
+    
+    text-align: center;
+    font-weight:600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 2px 2px 0px 1px rgb(162, 222, 255);
+    margin-bottom:0.7em;
+}
+.card__list{
+    display: grid;
+    gap: 0.5em;
+}
+.card__item-label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: gray;
+    margin-bottom: 0.05em;
+    position: relative;
+    left:0.8em;
+}
